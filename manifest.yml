@@ -1,0 +1,15 @@
+---
+applications:
+- name: "insights-discovery"
+  memory: 1024M
+  disk_quota: 1024M
+  path: "./"
+  command: "npm start"
+  host: "insights-discovery"
+  buildpack: "https://github.com/cloudfoundry/buildpack-nodejs.git#v1.5.5"
+  env:
+    API_ENDPOINT: 'your-API_ENDPOINT'
+    CONSUMER_KEY: 'your-CONSUMER_KEY'
+    CONSUMER_SECRET: 'your-CONSUMER_SECRET'
+    API_USERNAME: 'shailendra'
+    API_PASSWORD: 'shailendra'

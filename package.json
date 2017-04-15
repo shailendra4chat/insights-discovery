@@ -1,0 +1,25 @@
+{
+  "name": "insights-discovery",
+  "version": "0.0.1",
+  "main": "server/index.js",
+  "description": "Using Data products from market place to quickly build, deploy and reuse an analytical application.",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "csvtojson": "^1.1.4",
+    "express": "^4.13.1",
+    "node-rest-client": "^3.0.0",
+    "request": "^2.80.0"
+  },
+  "author": "Shailendra Singh <shailendra.4.singh@atos.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js --ignore client/ --ignore node_modules/"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
