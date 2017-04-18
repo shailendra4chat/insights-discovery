@@ -13,7 +13,7 @@
     "node-rest-client": "^3.0.0",
     "request": "^2.80.0"
   },
-  "author": "Shailendra Singh <shailendra.4.singh@atos.net>",
+  "author": "Shailendra Singh",
   "license": "MIT",
   "scripts": {
     "start": "node server/index.js --ignore client/ --ignore node_modules/"
